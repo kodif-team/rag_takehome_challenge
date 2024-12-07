@@ -4,7 +4,7 @@ Context
 You are tasked with improving the accuracy of a Retrieval-Augmented Generation (RAG) system used to answer questions based on a set of articles. The current system retrieves relevant documents using a dense vector search and generates responses using a pre-trained language model. However, its accuracy in providing relevant and coherent answers needs improvement.
 
 Tasks:
-1. Use articles_.csv in datasets to build the basic vanilla embeddings-based RAG system. 
+1. Use the dataset (https://docs.google.com/spreadsheets/d/19RrrbXLjiVSzBrN67px3jz5H-aQI-eEpUJjwAFKLV9U/edit?usp=sharing) to build the basic vanilla embeddings-based RAG system. 
 2. Use questions.csv to test the accuracy of the vanilla RAG.
 3. Improve the RAG system accuracy using any combination of approaches. Hints: keyword search, Knowledge Graphs, query expansion, etc...
 NOTE: 
