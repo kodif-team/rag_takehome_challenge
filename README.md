@@ -1,6 +1,19 @@
-# Datasets for building RAG 
+# Improve RAG accuracy 
 
-1. Use articles_.csv in datasets to build any type of RAG system 
-2. Use syntetic questions to **get top 5 contexts** from RAG,  
-3. Store contexts alongside question_test.csv file, in columns, like *question, context_1, context_2, context_3, context_4, context_5*, each context should contain only string value
-4. Create new branch with your name (Dont try to push main, it's protected by default)
+Context
+You are tasked with improving the accuracy of a Retrieval-Augmented Generation (RAG) system used to answer questions based on a set of articles. The current system retrieves relevant documents using a dense vector search and generates responses using a pre-trained language model. However, its accuracy in providing relevant and coherent answers needs improvement.
+
+Tasks:
+1. Use articles_.csv in datasets to build the basic vanilla embeddings-based RAG system. 
+2. Use questions.csv to test the accuracy of the vanilla RAG.
+3. Improve the RAG system accuracy using any combination of approaches. Hints: keyword search, Knowledge Graphs, query expansion, etc...
+NOTE: 
+- You can use any RAG framework and LLM of your choice. However, make sure to keep the same LLM throughout the assignment. 
+
+Deliverables
+- Code: A Jupyter notebook (or equivalent Python script) with your solution.
+- Report: A concise report (max 2 pages) explaining your approach, results, and future recommendations.
+- Validation: Provide metrics (e.g., recall, precision@k, F1-score, BLEU, ROUGE) to demonstrate improved accuracy.
+- Documentation: Clearly comment your code and provide instructions for replication.
+
+Good luck! If you have any questions, please feel free to reach out to kairat@kodif.ai (cc: norm@kodif.ai) for clarifications.
