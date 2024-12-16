@@ -7,15 +7,17 @@ Tasks:
 1. Use the dataset (https://docs.google.com/spreadsheets/d/19RrrbXLjiVSzBrN67px3jz5H-aQI-eEpUJjwAFKLV9U/edit?usp=sharing) to build the LLM embeddings-based RAG system. 
 2. Evaluation datasets:
  - Here are synthetic Q&As generated from the knowledge corpus: /datasets/synthetic_questions.csv.
+   - Precision@k (k=2, k=5) based on RAGAS, should be better than 0.55
  - List of real-world Questions (with expected articles) is here: /datasets/real_questions.csv. 
 3. Improve the RAG system accuracy further using any combination of approaches. Hints: keyword search, Knowledge Graphs, query expansion, etc...
 4. The goal is to reach maximum possible accuracy improvements. Show results for each evaluation dataset separately: synthetic data and real-world data.
-5. At least one of the experiments should be based on "openai-text-3-small-embeddings" (located here: located here: https://drive.google.com/file/d/1mZRcNpCSHWwaBtvwTAUnphWZACq-ya9n/view?usp=sharing).
+5. At least one of the experiments should be based on "openai-text-3-small-embeddings" (located here: https://drive.google.com/file/d/1mZRcNpCSHWwaBtvwTAUnphWZACq-ya9n/view?usp=sharing).
 
 NOTE: 
 - You can use any RAG framework and LLM of your choice. However, make sure to keep the same LLM throughout the assignment. 
 - Use chunk sizes of 1000
-- Use top 5 chunks for answer generation
+- Use top 5 and top 2 chunks for answer generation
+- Your approach must be generally applicable
 - Feel free to use any Vector DB / Solution
 
 Deliverables
