@@ -4,7 +4,7 @@ Context
 You are tasked with improving the accuracy of a Retrieval-Augmented Generation (RAG) system used to answer questions based on a set of articles. The current system retrieves relevant documents using a dense vector search and generates responses using a pre-trained language model. However, its accuracy in providing relevant and coherent answers needs improvement.
 
 Tasks:
-1. Use the dataset (https://docs.google.com/spreadsheets/d/19RrrbXLjiVSzBrN67px3jz5H-aQI-eEpUJjwAFKLV9U/edit?usp=sharing) to build the LLM embeddings-based RAG system. 
+1. Use the dataset (https://docs.google.com/spreadsheets/d/1yfPygE3UztXA2j767_oBtBVKcyOTZvuUYOs1sbvJfqg/edit?usp=sharing) to build the LLM embeddings-based RAG system. 
 2. Evaluation datasets:
  - Here are synthetic Q&As generated from the knowledge corpus: /datasets/synthetic_questions.csv.
      - Precision@k (k=2, k=5) based on synthetic Q&As using RAGAS, should be better than 0.55 
