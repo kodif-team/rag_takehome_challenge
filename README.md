@@ -11,7 +11,7 @@ Tasks:
  - List of real-world Questions (with expected articles) is here: /datasets/real_questions.csv. 
 3. Improve the RAG system accuracy further using any combination of approaches. Hints: keyword search, Knowledge Graphs, query expansion, etc...
 4. The goal is to reach maximum possible accuracy improvements. Show results for each evaluation dataset separately: synthetic data and real-world data.
-5. At least one of the experiments should be based on "openai-text-3-small-embeddings" (located here: https://drive.google.com/file/d/1mZRcNpCSHWwaBtvwTAUnphWZACq-ya9n/view?usp=sharing).
+5. At least one of the experiments should be based on "openai-text-3-small-embeddings" (located here: https://drive.google.com/file/d/1yhU2xxM9gK2RRfdL8HnkamJZKOJPb6Kn/view?usp=sharing).
 
 NOTE: 
 - You can use any RAG framework and LLM of your choice. However, make sure to keep the same LLM throughout the assignment. 
