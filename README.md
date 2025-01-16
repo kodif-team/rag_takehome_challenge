@@ -1,6 +1,7 @@
 # Improve RAG accuracy 
 
-Context
+Context:
+
 You are tasked with improving the accuracy of a Retrieval-Augmented Generation (RAG) system used to answer questions based on a set of articles. The current system retrieves relevant documents using a dense vector search and generates responses using a pre-trained language model. However, its accuracy in providing relevant and coherent answers needs improvement.
 
 Tasks:
@@ -13,14 +14,14 @@ Tasks:
 4. The goal is to reach maximum possible accuracy improvements. Show results for each evaluation dataset separately: synthetic data and real-world data.
 5. At least one of the experiments should be based on "openai-text-3-small-embeddings" (located here: https://drive.google.com/file/d/1yhU2xxM9gK2RRfdL8HnkamJZKOJPb6Kn/view?usp=sharing).
 
-NOTE: 
+Note: 
 - You can use any RAG framework and LLM of your choice. However, make sure to keep the same LLM throughout the assignment. 
 - Use chunk sizes of 1000
 - Use top 5 chunks for answer generation
 - Your approach must be generally applicable
 - Feel free to use any Vector DB / Solution
 
-Deliverables
+Deliverables:
 - Code: A Jupyter notebook (or equivalent Python script) with your solution.
 - Report: A concise report (max 2 pages) explaining your approach, results, and future recommendations.
 - Validation: Provide metrics (e.g., NDCG@k,  precision@k, BLEU, ROUGE) to demonstrate improved accuracy.
