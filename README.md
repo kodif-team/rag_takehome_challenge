@@ -8,7 +8,7 @@ Tasks:
 1. Use the dataset (https://docs.google.com/spreadsheets/d/1yfPygE3UztXA2j767_oBtBVKcyOTZvuUYOs1sbvJfqg/edit?usp=sharing) to build the LLM embeddings-based RAG system. 
 2. Evaluation datasets:
  - Here are synthetic Q&As generated from the knowledge corpus: /datasets/synthetic_questions.csv.
-     - Precision@k (k=2, k=5) based on synthetic Q&As using RAGAS, should be better than 0.55 
+     - Precision@k (k=2, k=5) based on synthetic Q&As using RAGAS, should be better than 0.70
  - List of real-world Questions (with expected articles) is here: /datasets/real_questions.csv. 
 3. Improve the RAG system accuracy further using any combination of approaches. Hints: keyword search, Knowledge Graphs, query expansion, etc...
 4. The goal is to reach maximum possible accuracy improvements. Show results for each evaluation dataset separately: synthetic data and real-world data.
